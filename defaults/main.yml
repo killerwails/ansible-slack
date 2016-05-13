@@ -4,7 +4,7 @@ slack_domain: "telusdigital.slack.com"
 slack_channel: "{{ project }}-ops"
 
 slack_ssh_alert_enabled: yes
-slack_ssh_alert_webhook: "https://hooks.slack.com/services/{{ slack_token }}"
+slack_ssh_alert_webhook: "https://hooks.slack.com/services/{{ slack_ssh_alert_token }}"
 slack_ssh_alert_channel: "{{ alert_channel }}"
 slack_ssh_alert_bot_name: "Alice Krige bot"
 slack_ssh_alert_path: /etc/ssh/notify.sh
