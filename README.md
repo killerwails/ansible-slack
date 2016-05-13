@@ -27,3 +27,5 @@ License
 Contributors
 ------------
 * Steven Harradine
+* Ross Duggan
+* Nikki

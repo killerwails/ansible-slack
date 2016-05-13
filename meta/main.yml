@@ -4,7 +4,7 @@ galaxy_info:
   categories:
     - development
   company: "TELUS digital"
-  description: "Send slack notifications from playbooks."
+  description: "Send slack notifications and ssh alerts from playbooks."
   license: MIT
   min_ansible_version: 1.6
   platforms:
@@ -14,4 +14,6 @@ galaxy_info:
         - precise
         - trusty
         - utopic
+
+dependencies: []
 
